@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Không sao lưu đám mây/chuyển thiết bị: token và dữ liệu cục bộ không rời máy ngoài chức năng Xuất dữ liệu. -->
+<data-extraction-rules>
+    <cloud-backup><exclude domain="root" /><exclude domain="sharedpref" /><exclude domain="file" /><exclude domain="database" /></cloud-backup>
+    <device-transfer><exclude domain="root" /><exclude domain="sharedpref" /><exclude domain="file" /><exclude domain="database" /></device-transfer>
+</data-extraction-rules>

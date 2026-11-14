@@ -1,0 +1,1 @@
+package android.content; public class Intent { public static final String ACTION_VIEW="v"; public static final String CATEGORY_BROWSABLE="b"; public static final int FLAG_ACTIVITY_NEW_TASK=1; public Intent(String a, android.net.Uri u){} public Intent addCategory(String c){return this;} public Intent addFlags(int f){return this;} }

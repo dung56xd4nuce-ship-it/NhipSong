@@ -1,0 +1,1 @@
+package com.getcapacitor; public class PluginCall { public String getString(String k){return null;} public void resolve(){} public void resolve(JSObject o){} public void reject(String m,String c){} public void reject(String m,String c,JSObject d){} }

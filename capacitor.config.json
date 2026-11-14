@@ -1,0 +1,9 @@
+{
+  "appId": "vn.nhipsong.app",
+  "appName": "Nhịp Sống",
+  "webDir": "dist",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "LocalNotifications": { "smallIcon": "ic_stat_nhip", "iconColor": "#3E8E7E" }
+  }
+}
